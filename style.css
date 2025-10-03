@@ -1,0 +1,83 @@
+/* General body */
+body {
+    background: #f3f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page headers */
+h1, h2 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #1abc9c;
+    border-color: #16a085;
+}
+.btn-primary:hover {
+    background-color: #16a085;
+    border-color: #149174;
+}
+
+.btn-success {
+    background-color: #3498db;
+    border-color: #2980b9;
+}
+.btn-success:hover {
+    background-color: #2980b9;
+    border-color: #1c5980;
+}
+
+.btn-secondary {
+    background-color: #7f8c8d;
+    border-color: #707b7d;
+}
+.btn-secondary:hover {
+    background-color: #707b7d;
+    border-color: #5c6264;
+}
+
+/* Tables */
+table {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #1abc9c;
+    color: #fff;
+    font-weight: 600;
+}
+
+td {
+    color: #2c3e50;
+}
+
+/* Form inputs */
+input.form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+/* Alerts */
+.alert-success {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+}
+
+.alert-danger {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+}
+
+.alert-warning {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+}
